@@ -16,6 +16,12 @@ public class FinishSwap : StateMachineBehaviour
         {
             animator.gameObject.GetComponentInParent<GemBehaviour>().WithDrawSwap();
         }
+
+        if (stateInfo.IsName("BallFalling"))
+        {
+            int nextGemValue = animator.GetInteger("NextGemValue");
+            animator.gameObject.GetComponentInParent<GemBehaviour>().SetGemValue(nextGemValue);
+        }
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
