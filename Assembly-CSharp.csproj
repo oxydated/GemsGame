@@ -57,10 +57,14 @@
   <ItemGroup>
      <Compile Include="Assets\Gem\FireworkBehaviour.cs" />
      <Compile Include="Assets\Gem\GemBehaviour.cs" />
+     <Compile Include="Assets\ShaftBehaviour.cs" />
+     <Compile Include="Assets\SphereBehaviour.cs" />
      <Compile Include="Assets\SwapMoves\FinishSwap.cs" />
      <Compile Include="Assets\Table\ColumnGaps.cs" />
      <Compile Include="Assets\Table\MatchingCell.cs" />
      <Compile Include="Assets\Table\StartBehaviour.cs" />
+     <Compile Include="Assets\TubeBehaviour.cs" />
+     <Compile Include="Assets\TubeSectionBehaviour.cs" />
  <Reference Include="UnityEngine">
  <HintPath>E:/Program Files/Unity/2019.4.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
