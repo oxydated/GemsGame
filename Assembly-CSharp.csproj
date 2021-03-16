@@ -57,6 +57,7 @@
   <ItemGroup>
      <Compile Include="Assets\Gem\FireworkBehaviour.cs" />
      <Compile Include="Assets\Gem\GemBehaviour.cs" />
+     <Compile Include="Assets\NewBall\NewBallBehaviour.cs" />
      <Compile Include="Assets\ShaftBehaviour.cs" />
      <Compile Include="Assets\SphereBehaviour.cs" />
      <Compile Include="Assets\SwapMoves\FinishSwap.cs" />
